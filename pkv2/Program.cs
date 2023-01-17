@@ -7,7 +7,8 @@ var id = Guid.NewGuid().ToString();
 
 Console.WriteLine($"id: {id}");
 
-// TODO: customise checksum, hash and base keys
+// TODO: customise checksum, hash and base keys and then comment out the error below
+#error Do not use without customising the checksum, hash and base keys!
 var generator = new PartialKeyGenerator(new Adler16(), new Jenkins96(), new uint[] { 1, 2, 3, 4 }) { Spacing = 4 };
 
 // generate license key

@@ -62,7 +62,8 @@ string PKV_GetChecksum(string serial)
 string PKV_MakeKey(int seed)
 {
     // build a list of subkeys
-    // TODO: tweak the bit twiddling params and add more subkeys!
+    // TODO: tweak the bit twiddling params and add more subkeys before commenting out the error below
+    #error Do not use without tweaking the bit twiddling params and optionally adding more subkeys!
     var subkeys = new int[]
     {
         PKV_GetKeyByte(seed, 24, 3, 200),

@@ -2,4 +2,4 @@
 
 Examples of license key generation that could be used with [Cloud Zoo](https://developer.rhino3d.com/guides/rhinocommon/cloudzoo/cloudzoo-overview/).
 
-Do your own research!
+⚠️ _Do not use without customising the parameters used to generate the keys!_
